@@ -24,8 +24,8 @@
     function createComment(commentObj){
       return $http.post(baseURL, commentObj);
     };
-    function updateComment(commentId, updateCommentInfo){
-      return $http.put(baseURL + commentId, updateCommentInfo);
+    function updateComment(commentId, commentUpdateInfo){
+      return $http.put(baseURL + commentId, commentUpdateInfo);
     };
     function deleteComment(commentId){
       return $http.delete(baseURL + commentId);
