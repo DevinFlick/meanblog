@@ -1,0 +1,13 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header" ng-controller = 'ActiveViewController'>
+      <ul class="nav navbar-nav">
+        <li ng-class = "{active : isActive('/')}"><a href="#/">Home</a></li>
+        <li ng-class = "{active : isActive('/login')}"><a href="#/login">Login</a></li>
+        <li ng-class = "{active : isActive('/signup')}"><a href="#/signup">Signup</a></li>
+        <li ng-class = "{active : isActive('/profile')}"><a href="#/profile">Profile</a></li>
+        <li ng-class = "{active : isActive('/post')}"><a href="#/post">Post</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
